@@ -1,0 +1,20 @@
+{
+  "plugins": {
+    "supported_types": [
+      "Form Type One",
+      "Form Type Two"
+    ],
+    "display_names": [
+      "Display Name One",
+      "Display Name Two"
+    ],
+    "plugin_types": {
+      "formTypeOne": {
+        "display_name": "Display Name One"
+      },
+      "formTypeTwo": {
+        "display_name": "Display Name Two"
+      }
+    }
+  }
+}

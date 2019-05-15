@@ -1,0 +1,19 @@
+{
+  "priority": 1,
+  "request": {
+    "urlPath": "/defect/subscriptions",
+    "method": "POST",
+    "headers": {
+      "Content-Type": {
+        "equalTo": "application/vnd.ionos.product.integration.cosy.subscription-v1+json"
+      }
+    }
+  },
+  "response": {
+    "status": 409,
+    "headers": {
+      "Content-Type": "application/vnd.ionos.product.integration.cosy.subscription.error-v1+json"
+    },
+    "body": "API Key already assigned to another subscription"
+  }
+}

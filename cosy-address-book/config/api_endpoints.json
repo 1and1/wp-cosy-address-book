@@ -1,0 +1,24 @@
+{
+  "cosy_middleware": {
+    "production": {
+      "EU": "https://api.addressbook-eu.ionos.com",
+      "US": "https://api.addressbook-us.ionos.com"
+    },
+    "integration": "http://example.cosy-integration.com",
+    "development": "http://cosy.wiremock.lan:8080"
+  },
+  "cosy_frontend": {
+    "production": {
+      "DE": "https://adressbuch.ionos.de",
+      "GB": "https://addressbook.ionos.co.uk",
+      "ES": "https://addressbook.ionos.es",
+      "FR": "https://addressbook.ionos.fr",
+      "IT": "https://addressbook.ionos.it",
+      "US": "https://addressbook.ionos.com",
+      "CA": "https://addressbook.ionos.ca",
+      "MX": "https://addressbook.ionos.mx"
+    },
+    "integration": "http://example.cosy-integration.com",
+    "development": "http://localhost:8001"
+  }
+}

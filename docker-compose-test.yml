@@ -1,0 +1,52 @@
+version: '3'
+services:
+  db_tests:
+    image: mysql:5.7
+    environment:
+      MYSQL_ROOT_PASSWORD: wordpress_tests
+      MYSQL_DATABASE: wordpress_tests
+      MYSQL_USER: wordpress_tests
+      MYSQL_PASSWORD: wordpress_tests
+    networks:
+      testing:
+        ipv4_address: 192.168.34.20
+
+  wiremock_test:
+    image: rodolpheche/wiremock
+    ports:
+      - "8081:8080"
+    volumes:
+      - ./tests/config/wiremock/__files:/home/wiremock/__files/
+      - ./tests/config/wiremock/mappings:/home/wiremock/mappings/
+    networks:
+      testing:
+        ipv4_address: 192.168.34.21
+        aliases:
+          - cosy.wiremock.lan
+
+  composer:
+    build:
+      context: "."
+      dockerfile: "tests/Dockerfile"
+    environment:
+      STAGE_ENV: ${STAGE_ENV}
+    links:
+      - db_tests
+      - wiremock_test
+    volumes:
+      - .:/app
+    command: ["run-script", "test-docker"]
+    networks:
+      testing:
+        ipv4_address: 192.168.34.22
+
+networks:
+  testing:
+    driver: bridge
+    ipam:
+      driver: default
+      config:
+      -
+        subnet: 192.168.34.0/24
+
+

@@ -1,0 +1,115 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WordPress CoSy Address Book\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/cosy-address-book\n"
+"POT-Creation-Date: 2015-08-17 08:39+0200\n"
+"PO-Revision-Date: 2016-06-29 14:20+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 1.8.4\n"
+
+#Admin page title
+msgid "cosy_address_book_admin_page_title"
+msgstr "Rubrica"
+
+#Admin Menu title (navigation bar)
+msgid "cosy_address_book_menu_title"
+msgstr "Rubrica"
+
+#Description page
+msgid "cosy_address_book_menu_page_headline"
+msgstr "Rubrica 1&1 IONOS"
+
+msgid "cosy_address_book_invitation"
+msgstr "Questo plugin funziona solo in combinazione con la"
+
+msgid "cosy_address_book_url_text"
+msgstr "rubrica 1&1 IONOS"
+
+msgid "cosy_address_book_guidance_summary"
+msgstr "Per salvare automaticamente le informazioni di contatto del tuo sito web nella tua rubrica 1&1 IONOS, è sufficiente collegare WordPress alla rubrica 1&1 IONOS:"
+
+msgid "cosy_address_book_guidance_step_one_label"
+msgstr "Step 1"
+
+msgid "cosy_address_book_guidance_step_one_content"
+msgstr "Crea una password, valida solo una volta, nella pagina &quot;Gestisci le fonti&quot; nella"
+
+msgid "cosy_address_book_guidance_step_two_label"
+msgstr "Step 2"
+
+msgid "cosy_address_book_guidance_step_two_content"
+msgstr "Inserisci la password, valida solo una volta, nel campo sottostante e clicca su &quot;Salva&quot;."
+
+msgid "cosy_address_book_activation_form_label"
+msgstr "Password valida solo una volta"
+
+msgid "cosy_address_book_form_button_text"
+msgstr "Salva"
+
+#Settings page
+msgid "cosy_address_book_connection_header"
+msgstr "Crea il collegamento"
+
+msgid "cosy_address_book_plugin_description_header"
+msgstr "Plugin"
+
+msgid "cosy_address_book_plugin_activation_hint"
+msgstr "Installa uno dei seguenti plugin, affinché le informazioni di contatto vengano salvate automaticamente nella rubrica 1&1 IONOS."
+
+msgid "cosy_address_book_web_form_insertion_hint"
+msgstr "Se hai inserito un modulo di contatto nel tuo sito web, su questa pagina puoi trovare ulteriori impostazioni."
+
+msgid "cosy_address_book_connection_confirmation"
+msgstr "Il collegamento alla tua rubrica 1&1 IONOS è avvenuto con successo."
+
+msgid "cosy_address_book_mapping_description"
+msgstr "In quale campo della tua rubrica desideri salvare i dati del modulo di contatto?"
+
+msgid "cosy_address_book_mapping_header_api_fields"
+msgstr "Rubrica 1&1 IONOS"
+
+msgid "cosy_address_book_mapping_header_form_fields"
+msgstr "Campo del modulo di contatto"
+
+msgid "cosy_address_book_api_field_display_name_firstname"
+msgstr "Nome"
+
+msgid "cosy_address_book_api_field_display_name_lastname"
+msgstr "Cognome"
+
+msgid "cosy_address_book_api_field_display_name_email"
+msgstr "E-mail"
+
+msgid "cosy_address_book_api_field_display_name_phone"
+msgstr "Telefono"
+
+msgid "cosy_address_book_api_field_display_name_notes"
+msgstr "Annotazioni"
+
+msgid "cosy_address_book_api_field_display_name_consent"
+msgstr "Consenso (campo obbligatorio)"
+
+msgid "cosy_address_book_synchronisation_ready_hint"
+msgstr "I dati di contatto del tuo modulo di contatto vengono automaticamente salvati nella rubrica 1&1 IONOS."
+
+msgid "cosy_address_book_deconnection_url_text"
+msgstr "Rimuovi il collegamento"
+
+msgid "cosy_address_book_consent_field_constraint_hint"
+msgstr "In conformità all'attuale direttiva UE sulla protezione dei dati, i dati del modulo di contatto possono essere salvati nella tua rubrica 1&1 IONOS solo se l'utente acconsente al loro salvataggio. Per questo motivo, il campo &quot;Consenso&quot; è obbligatorio."
+
+msgid "cosy_address_book_gdpr_hint_content"
+msgstr "Attenzione: <br/>In conformità all'attuale direttiva UE sulla protezione dei dati, i dati del modulo di contatto possono essere salvati nella tua rubrica 1&1 IONOS solo se l'utente acconsente al loro salvataggio. Per questo motivo, il campo Consenso è obbligatorio. Assicurati quindi che l'utente acconsenta al salvataggio dei suoi dati."
+
+#Message from API Client
+msgid "cosy_address_book_generic_error"
+msgstr "Si è verificato un errore durante il salvataggio. Ti preghiamo di riprovare."
+
+msgid "cosy_address_book_field_mapping_successful"
+msgstr "L'assegnazione dei campi è stata salvata con successo."

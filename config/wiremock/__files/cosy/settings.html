@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>IONOS Address Book - Settings</title>
+	<Style type="text/css">
+		body {
+			font-family: "Bitstream Vera Sans";
+		}
+
+		.ui-settings-page {
+			margin-left: 25%;
+			font-size: 30pt;
+		}
+
+		.ui-api-key-generator {
+			margin-top: 40px;
+			font-size: 18pt;
+		}
+
+		.ui-api-key-value {
+			width: 64%;
+			margin-top: 10px;
+			padding: 20px;
+			background-color: #f3fcf5;
+			color: #006400;
+			font-size: 13pt;
+			border-color: #38cc59;
+			border-style: solid;
+			border-width: thin;
+		}
+	</Style>
+	<script type="application/javascript">
+        function generateApiKey() {
+            document.getElementById('api-key').innerHTML = "37E5NicvOeVeCAThvgrJybVp0EEdiEUexrFwte7KVBU+WT6ZV/ZF5pBO53XXfxLTS3bpv/HxzZD3qf7W9lY0ag.1";
+        }
+	</script>
+</head>
+<body>
+<div class="ui-settings-page">
+	<div>Welcome to IONOS Adress Book Settings Page</div>
+	<div class="ui-api-key-generator">
+		<label>Generate a one-time-password:</label>
+		<div id="api-key" class="ui-api-key-value"></div>
+	</div>
+	<div>
+		<button onclick="generateApiKey()">Generate</button>
+	</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,19 @@
+{
+  "priority": 1,
+  "request": {
+    "urlPath": "/contacts",
+    "method": "POST",
+    "headers": {
+      "Content-Type": {
+        "equalTo": "application/vnd.ionos.product.integration.cosy.subscription-v1+json"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/vnd.ionos.product.integration.cosy.subscription-v1+json"
+    },
+    "bodyFileName": "cosy/subscription_contacts.json"
+  }
+}

@@ -1,0 +1,143 @@
+.ui-cosy-address-book {
+  color: #1F282D;
+  margin-right: 10px;
+  font-size: 14px;
+
+  > div {
+    max-width: 450px;
+  }
+
+  h1 {
+    font-size: 30px;
+    line-height: 1.3333em;
+    font-weight: 400;
+  }
+
+  h2 {
+    font-size: 19px;
+    line-height: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+    margin-top: 30px;
+  }
+
+  h4 {
+    font-size: 19px;
+    line-height: 24px;
+    font-weight: 500;
+    margin-bottom: 8px;
+    margin-top: 24px;
+  }
+
+  p {
+    margin-top: 8px;
+    font-size: 14px;
+  }
+
+  input {
+    width: inherit;
+    height: 40px;
+  }
+
+  a {
+    text-decoration: none;
+    font-weight: 500;
+  }
+
+  button {
+    cursor: pointer;
+    color: white;
+    height: 36px;
+    border-radius: 5px;
+    background-color: #0B9DCC;
+  }
+
+  .flex-layout {
+    display: flex;
+    flex: 1 1 auto;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    min-width: 0;
+
+    .flex-item {
+      flex: 1 1 auto;
+      max-width: 100%;
+
+      &.flex-grow {
+        flex: 1;
+      }
+
+      &.flex-shrink {
+        flex-grow: 0 !important;
+        flex-shrink: 1 !important;
+      }
+
+      &.size-6 {
+        flex-basis: 50%;
+        flex-grow: 0;
+        max-width: 50%;
+        margin-bottom: 8px;
+      }
+    }
+
+    &.flex-wrap {
+      flex-wrap: wrap;
+    }
+
+    &.v-center {
+      align-items: center;
+    }
+  }
+
+  .mr8 {
+    margin-right: 8px;
+  }
+
+  .mb16 {
+    margin-bottom: 16px;
+  }
+
+  .mb4 {
+    margin-bottom: 4px;
+  }
+
+  select {
+    width: 100%;
+  }
+
+  input {
+    border: 1px solid #b3b6b8;
+    border-radius: 2px;
+    display: inline-block;
+    box-shadow: none;
+    height: 36px;
+    padding: 0 12px;
+    width: 100%;
+    margin: 0;
+  }
+
+  .info-message {
+    padding: 14px 18px;
+    background-color: #F3FBFD;
+    border-bottom: 1px solid #0f95fc;
+    border-top: 1px solid #0f95fc;
+
+    &.success {
+      background-color: #f3fcf5;
+      border-color: #38cc59;
+    }
+
+    &.error {
+      background-color: #fdf2f2;
+      border-color: #d60600;
+    }
+  }
+
+  .deconnection-link {
+    margin-top: 3px;
+  }
+
+  .no-wrap {
+    white-space: nowrap;
+  }
+}

@@ -1,0 +1,121 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WordPress CoSy Address Book\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/cosy-address-book\n"
+"POT-Creation-Date: 2015-08-17 08:39+0200\n"
+"PO-Revision-Date: 2016-06-29 14:23+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_CA\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 1.8.4\n"
+
+#Admin page title
+msgid "cosy_address_book_admin_page_title"
+msgstr "Address Book"
+
+#Admin Menu title (navigation bar)
+msgid "cosy_address_book_menu_title"
+msgstr "Address Book"
+
+#Description page
+msgid "cosy_address_book_menu_page_headline"
+msgstr "1&amp;1 IONOS Address Book"
+
+msgid "cosy_address_book_invitation"
+msgstr "This plugin only works with the"
+
+msgid "cosy_address_book_url_text"
+msgstr "1&amp;1 IONOS Address Book"
+
+msgid "cosy_address_book_guidance_summary"
+msgstr "In order to automatically save contact data of your WordPress website into your 1&amp;1 IONOS Address Book, you need to connect both systems to each other as described below:"
+
+msgid "cosy_address_book_guidance_step_one_label"
+msgstr "Step 1"
+
+msgid "cosy_address_book_guidance_step_one_content"
+msgstr "Generate a new one-time-password on the page &quot;Configure Settings&quot; in your"
+
+msgid "cosy_address_book_guidance_step_two_label"
+msgstr "Step 2"
+
+msgid "cosy_address_book_guidance_step_two_content"
+msgstr "Paste the generated one-time-password into field below and click &quot;Save&quot;"
+
+msgid "cosy_address_book_activation_form_label"
+msgstr "One-time password"
+
+msgid "cosy_address_book_form_button_text"
+msgstr "Save"
+
+#Settings page
+msgid "cosy_address_book_connection_header"
+msgstr "Connection"
+
+msgid "cosy_address_book_plugin_description_header"
+msgstr "Plugins"
+
+msgid "cosy_address_book_plugin_activation_hint"
+msgstr "Install one following plugins in order to save contact data into your 1&amp;1 IONOS Address Book."
+
+msgid "cosy_address_book_web_form_insertion_hint"
+msgstr "As soon as you insert a web form to your website, you will see further settings on current page."
+
+msgid "cosy_address_book_connection_confirmation"
+msgstr "Successfully connected to your 1&amp;1 IONOS Address Book"
+
+msgid "cosy_address_book_mapping_description"
+msgstr "Which form field should be saved to which contact field?"
+
+msgid "cosy_address_book_mapping_header_api_fields"
+msgstr "1&amp;1 IONOS Address Book"
+
+msgid "cosy_address_book_mapping_header_form_fields"
+msgstr "Contact form field"
+
+msgid "cosy_address_book_api_field_display_name_firstname"
+msgstr "First Name"
+
+msgid "cosy_address_book_api_field_display_name_lastname"
+msgstr "Last Name"
+
+msgid "cosy_address_book_api_field_display_name_email"
+msgstr "Email"
+
+msgid "cosy_address_book_api_field_display_name_phone"
+msgstr "Phone"
+
+msgid "cosy_address_book_api_field_display_name_notes"
+msgstr "Notes"
+
+msgid "cosy_address_book_api_field_display_name_consent"
+msgstr "Privacy consent (required)"
+
+msgid "cosy_address_book_synchronisation_ready_hint"
+msgstr "Your configured form fields will be automatically synchronised to corresponding IONOS Address Book fields."
+
+msgid "cosy_address_book_deconnection_url_text"
+msgstr "Disconnect"
+
+msgid "cosy_address_book_form_settings_url_text"
+msgstr "Your Form Configuration"
+
+msgid "cosy_address_book_consent_field_constraint_hint"
+msgstr "In the range of EU GDPR Policies, contact form data will be saved in your Address Book only if the visitor consents. This is the reason why field &quot;Privacy consent&quot; is mandatory"
+
+msgid "cosy_address_book_gdpr_hint_content"
+msgstr "Please note: Due to privacy reasons it it required to obtain a privacy consent from the user, which allows you to process personal data."
+
+msgid "cosy_address_book_gdpr_hint_url_text"
+msgstr "More Information"
+
+#Message from API Client
+msgid "cosy_address_book_generic_error"
+msgstr "An error occurred while saving, please retry"
+
+msgid "cosy_address_book_field_mapping_successful"
+msgstr "Field mapping successfully saved"

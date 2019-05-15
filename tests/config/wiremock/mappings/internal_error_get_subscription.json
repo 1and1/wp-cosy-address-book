@@ -1,0 +1,19 @@
+{
+  "priority": 1,
+  "request": {
+    "urlPath": "/internal-error/subscriptions",
+    "method": "GET",
+    "headers": {
+      "Content-Type": {
+        "equalTo": "application/vnd.ionos.product.integration.cosy.subscription-v1+json"
+      }
+    }
+  },
+  "response": {
+    "status": 500,
+    "headers": {
+      "Content-Type": "application/vnd.ionos.product.integration.cosy.subscription.error-v1+json"
+    },
+    "body": "An error occurred while processing the request please try again later"
+  }
+}

@@ -1,0 +1,71 @@
+version: '3'
+services:
+  db:
+    image: mysql:5.7
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: wordpress
+      MYSQL_DATABASE: wordpress
+      MYSQL_USER: wordpress
+      MYSQL_PASSWORD: wordpress
+    networks:
+      external:
+        ipv4_address: 192.168.33.20
+
+  wiremock:
+    image: rodolpheche/wiremock
+    restart: always
+    ports:
+      - "8001:8080"
+      - "8443:8443"
+    volumes:
+      - ./config/wiremock/__files:/home/wiremock/__files/
+      - ./config/wiremock/mappings:/home/wiremock/mappings/
+    networks:
+      external:
+        ipv4_address: 192.168.33.21
+        aliases:
+          - cosy.wiremock.lan
+
+  wordpress:
+    image: wordpress:latest
+    depends_on:
+      - db
+      - wiremock
+    ports:
+      - "8000:80"
+    volumes:
+      - wp-data:/var/www/html
+      - .:/var/www/html/wp-content/mu-plugins/
+    restart: always
+    environment:
+      WORDPRESS_DB_HOST: db:3306
+      WORDPRESS_DB_PASSWORD: wordpress
+      WORDPRESS_DEBUG: 1
+      STAGE_ENV: ${STAGE_ENV}
+    networks:
+      external:
+        ipv4_address: 192.168.33.22
+
+  phpmyadmin:
+    depends_on:
+      - db
+    image: phpmyadmin/phpmyadmin
+    ports:
+        - "8002:80"
+    restart: always
+    networks:
+      external:
+        ipv4_address: 192.168.33.23
+
+volumes:
+  wp-data:
+
+networks:
+  external:
+    driver: bridge
+    ipam:
+      driver: default
+      config:
+      -
+        subnet: 192.168.33.0/24

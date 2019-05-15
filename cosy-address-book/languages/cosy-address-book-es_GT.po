@@ -1,0 +1,115 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WordPress CoSy Address Book\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/cosy-address-book\n"
+"POT-Creation-Date: 2015-08-17 08:39+0200\n"
+"PO-Revision-Date: 2016-06-29 14:20+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 1.8.4\n"
+
+#Admin page title
+msgid "cosy_address_book_admin_page_title"
+msgstr "Libreta de direcciones"
+
+#Admin Menu title (navigation bar)
+msgid "cosy_address_book_menu_title"
+msgstr "Libreta de direcciones"
+
+#Description page
+msgid "cosy_address_book_menu_page_headline"
+msgstr "1&1 IONOS Libreta de direcciones"
+
+msgid "cosy_address_book_invitation"
+msgstr "Este plugin solo funciona con la"
+
+msgid "cosy_address_book_url_text"
+msgstr "1&1 IONOS Libreta de direcciones"
+
+msgid "cosy_address_book_guidance_summary"
+msgstr "Para guardar automáticamente los contactos que entren a través de tu sitio web en la Libreta de direcciones, simplemente conéctala a WordPress:"
+
+msgid "cosy_address_book_guidance_step_one_label"
+msgstr "Paso 1"
+
+msgid "cosy_address_book_guidance_step_one_content"
+msgstr "Crea una contraseña de un solo uso en la página &quot;Gestionar fuentes&quot; en la"
+
+msgid "cosy_address_book_guidance_step_two_label"
+msgstr "Paso 2"
+
+msgid "cosy_address_book_guidance_step_two_content"
+msgstr "Ingresa esta contraseña en el campo abajo y haz clic en &quot;Guardar&quot;."
+
+msgid "cosy_address_book_activation_form_label"
+msgstr "Contraseña de un solo uso"
+
+msgid "cosy_address_book_form_button_text"
+msgstr "Guardar"
+
+#Settings page
+msgid "cosy_address_book_connection_header"
+msgstr "Conectar"
+
+msgid "cosy_address_book_plugin_description_header"
+msgstr "Plugins"
+
+msgid "cosy_address_book_plugin_activation_hint"
+msgstr "Instala uno de los siguientes plugins para guardar automáticamente los contactos en la Libreta de direcciones."
+
+msgid "cosy_address_book_web_form_insertion_hint"
+msgstr "Cuando hayas integrado un formulario de contacto en el sitio web, verás más configuraciones en esta página."
+
+msgid "cosy_address_book_connection_confirmation"
+msgstr "Se estableció con éxito la conexión a la Libreta de direcciones."
+
+msgid "cosy_address_book_mapping_description"
+msgstr "¿En qué campo de la Libreta de direcciones deben guardarse los datos del formulario de contacto?"
+
+msgid "cosy_address_book_mapping_header_api_fields"
+msgstr "Libreta de direcciones"
+
+msgid "cosy_address_book_mapping_header_form_fields"
+msgstr "Campo del formulario"
+
+msgid "cosy_address_book_api_field_display_name_firstname"
+msgstr "Nombre"
+
+msgid "cosy_address_book_api_field_display_name_lastname"
+msgstr "Apellidos"
+
+msgid "cosy_address_book_api_field_display_name_email"
+msgstr "E-mail"
+
+msgid "cosy_address_book_api_field_display_name_phone"
+msgstr "Teléfono"
+
+msgid "cosy_address_book_api_field_display_name_notes"
+msgstr "Notas"
+
+msgid "cosy_address_book_api_field_display_name_consent"
+msgstr "Consentimiento (obligatorio)"
+
+msgid "cosy_address_book_synchronisation_ready_hint"
+msgstr "Los datos del formulario de contacto se guardarán automáticamente en la Libreta de direcciones."
+
+msgid "cosy_address_book_deconnection_url_text"
+msgstr "Desconectar"
+
+msgid "cosy_address_book_consent_field_constraint_hint"
+msgstr "Debido al Reglamento General de Protección de Datos de la Unión Europea, los datos del formulario de contacto pueden guardarse en la Libreta de direcciones solo si el usuario expresó su consentimiento. Por este motivo, el campo &quot;Consentimiento&quot; es obligatorio."
+
+msgid "cosy_address_book_gdpr_hint_content"
+msgstr "A tener en cuenta:<br/>Debido al Reglamento General de Protección de Datos de la Unión Europea, los datos del formulario de contacto pueden guardarse en la Libreta de direcciones solo si el usuario ha expresado su consentimiento. Por este motivo, el campo &quot;Consentimiento&quot; es obligatorio. Asegúrate de obtener el consentimiento de los usuarios."
+
+#Message from API Client
+msgid "cosy_address_book_generic_error"
+msgstr "Se produjo un error al guardar la información. "
+
+msgid "cosy_address_book_field_mapping_successful"
+msgstr "Los campos se asignaron con éxito."

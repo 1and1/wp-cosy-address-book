@@ -1,0 +1,115 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WordPress CoSy Address Book\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/cosy-address-book\n"
+"POT-Creation-Date: 2015-08-17 08:39+0200\n"
+"PO-Revision-Date: 2016-06-29 14:20+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 1.8.4\n"
+
+#Admin page title
+msgid "cosy_address_book_admin_page_title"
+msgstr "Carnet d'adresses"
+
+#Admin Menu title (navigation bar)
+msgid "cosy_address_book_menu_title"
+msgstr "Carnet d'adresses"
+
+#Description page
+msgid "cosy_address_book_menu_page_headline"
+msgstr "Carnet d'adresses 1&1 IONOS"
+
+msgid "cosy_address_book_invitation"
+msgstr "Ce plugin ne fonctionne qu'avec le "
+
+msgid "cosy_address_book_url_text"
+msgstr "Carnet d'adresses 1&1 IONOS"
+
+msgid "cosy_address_book_guidance_summary"
+msgstr "Pour stocker automatiquement les données de contact de votre site Web dans votre Carnet d'adresses 1&1 IONOS, connectez simplement WordPress au Carnet d'adresses 1&1 IONOS :"
+
+msgid "cosy_address_book_guidance_step_one_label"
+msgstr "Étape 1"
+
+msgid "cosy_address_book_guidance_step_one_content"
+msgstr "Créez un mot de passe unique sur la page « Gérer les sources » dans votre"
+
+msgid "cosy_address_book_guidance_step_two_label"
+msgstr "Étape 2"
+
+msgid "cosy_address_book_guidance_step_two_content"
+msgstr "Entrez dans le champ ci-dessous le mot de passe unique que vous venez de créer et cliquez sur « Enregistrer »."
+
+msgid "cosy_address_book_activation_form_label"
+msgstr "Mot de passe unique"
+
+msgid "cosy_address_book_form_button_text"
+msgstr "Enregistrer"
+
+#Settings page
+msgid "cosy_address_book_connection_header"
+msgstr "Établir la connexion"
+
+msgid "cosy_address_book_plugin_description_header"
+msgstr "Plugins"
+
+msgid "cosy_address_book_plugin_activation_hint"
+msgstr "Installez l'un des plugins suivants pour enregistrer automatiquement les informations de contact dans votre Carnet d'adresses 1&1 IONOS."
+
+msgid "cosy_address_book_web_form_insertion_hint"
+msgstr "Si vous intégrez un formulaire de contact sur votre site Web, vous verrez d'autres paramètres sur cette page."
+
+msgid "cosy_address_book_connection_confirmation"
+msgstr "La connexion avec votre Carnet d'adresses 1&1 IONOS a été établie."
+
+msgid "cosy_address_book_mapping_description"
+msgstr "Dans quel champ de votre carnet d'adresses les données du formulaire de contact doivent-elles être enregistrées ?"
+
+msgid "cosy_address_book_mapping_header_api_fields"
+msgstr "Carnet d'adresses 1&1 IONOS"
+
+msgid "cosy_address_book_mapping_header_form_fields"
+msgstr "Champ du formulaire de contact"
+
+msgid "cosy_address_book_api_field_display_name_firstname"
+msgstr "Prénom"
+
+msgid "cosy_address_book_api_field_display_name_lastname"
+msgstr "Nom de famille"
+
+msgid "cosy_address_book_api_field_display_name_email"
+msgstr "Email"
+
+msgid "cosy_address_book_api_field_display_name_phone"
+msgstr "Téléphone"
+
+msgid "cosy_address_book_api_field_display_name_notes"
+msgstr "Notes"
+
+msgid "cosy_address_book_api_field_display_name_consent"
+msgstr "Consentement (champ obligatoire)"
+
+msgid "cosy_address_book_synchronisation_ready_hint"
+msgstr "Les données de contact de votre formulaire de contact seront automatiquement enregistrées dans votre Carnet d'adresses 1&1 IONOS."
+
+msgid "cosy_address_book_deconnection_url_text"
+msgstr "Retirer la connexion"
+
+msgid "cosy_address_book_consent_field_constraint_hint"
+msgstr "En raison de la directive européenne en vigueur sur la protection des données, les données du formulaire de contact ne peuvent être enregistrées dans votre Carnet d'adresses 1&1 IONOS que si l'utilisateur y consent. Pour cette raison, le champ « Consentement » est un champ obligatoire."
+
+msgid "cosy_address_book_gdpr_hint_content"
+msgstr "Veuillez noter:<br/>En vertu de la directive actuelle de l'UE sur la protection des données, les données du formulaire de contact ne peuvent être enregistrées dans votre Carnet d'adresses 1&1 IONOS que si l'utilisateur y consent. Pour cette raison, le champ de consentement est obligatoire. Assurez-vous donc d'obtenir le consentement de vos utilisateurs."
+
+#Message from API Client
+msgid "cosy_address_book_generic_error"
+msgstr "Une erreur s'est produite lors de l'enregistrement. Veuillez réessayer."
+
+msgid "cosy_address_book_field_mapping_successful"
+msgstr "L'affectation des champs a été enregistrée avec succès."

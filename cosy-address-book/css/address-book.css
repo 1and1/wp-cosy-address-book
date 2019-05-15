@@ -1,0 +1,143 @@
+.ui-cosy-address-book {
+    color: #1F282D;
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+.ui-cosy-address-book > div {
+    max-width: 450px;
+}
+
+.ui-cosy-address-book h1 {
+    font-size: 30px;
+    line-height: 1.3333em;
+    font-weight: 400;
+}
+
+.ui-cosy-address-book h2 {
+    font-size: 19px;
+    line-height: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+    margin-top: 30px;
+}
+
+.ui-cosy-address-book h4 {
+    font-size: 19px;
+    line-height: 24px;
+    font-weight: 500;
+    margin-bottom: 8px;
+    margin-top: 24px;
+}
+
+.ui-cosy-address-book p {
+    margin-top: 8px;
+    font-size: 14px;
+}
+
+.ui-cosy-address-book input {
+    width: inherit;
+    height: 40px;
+}
+
+.ui-cosy-address-book a {
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.ui-cosy-address-book button {
+    cursor: pointer;
+    color: white;
+    height: 36px;
+    border-radius: 5px;
+    background-color: #0B9DCC;
+}
+
+.ui-cosy-address-book .flex-layout {
+    display: flex;
+    flex: 1 1 auto;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    min-width: 0;
+}
+
+.ui-cosy-address-book .flex-layout .flex-item {
+    flex: 1 1 auto;
+    max-width: 100%;
+}
+
+.ui-cosy-address-book .flex-layout .flex-item.flex-grow {
+    flex: 1;
+}
+
+.ui-cosy-address-book .flex-layout .flex-item.flex-shrink {
+    flex-grow: 0 !important;
+    flex-shrink: 1 !important;
+}
+
+.ui-cosy-address-book .flex-layout .flex-item.size-6 {
+    flex-basis: 50%;
+    flex-grow: 0;
+    max-width: 50%;
+    margin-bottom: 8px;
+}
+
+.ui-cosy-address-book .flex-layout.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.ui-cosy-address-book .flex-layout.v-center {
+    align-items: center;
+}
+
+.ui-cosy-address-book .mr8 {
+    margin-right: 8px;
+}
+
+.ui-cosy-address-book .mb16 {
+    margin-bottom: 16px;
+}
+
+.ui-cosy-address-book .mb4 {
+    margin-bottom: 4px;
+}
+
+.ui-cosy-address-book select {
+    width: 100%;
+}
+
+.ui-cosy-address-book input {
+    border: 1px solid #b3b6b8;
+    border-radius: 2px;
+    display: inline-block;
+    box-shadow: none;
+    height: 36px;
+    padding: 0 12px;
+    width: 100%;
+    margin: 0;
+}
+
+.ui-cosy-address-book .info-message {
+    padding: 14px 18px;
+    background-color: #F3FBFD;
+    border-bottom: 1px solid #0f95fc;
+    border-top: 1px solid #0f95fc;
+}
+
+.ui-cosy-address-book .info-message.success {
+    background-color: #f3fcf5;
+    border-color: #38cc59;
+}
+
+.ui-cosy-address-book .info-message.error {
+    background-color: #fdf2f2;
+    border-color: #d60600;
+}
+
+.ui-cosy-address-book .deconnection-link {
+    margin-top: 3px;
+}
+
+.ui-cosy-address-book .no-wrap {
+    white-space: nowrap;
+}

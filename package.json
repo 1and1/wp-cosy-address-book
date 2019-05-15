@@ -1,0 +1,23 @@
+{
+  "name": "wordpress-plugin_cosy-address-book",
+  "description": "CoSy Addressbook",
+  "main": "cosy-address-book.php",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "^1.0.4",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-less": "^2.0.0",
+    "grunt-contrib-watch": "^1.1.0",
+    "grunt-po2mo": "^0.1.2",
+    "grunt-wp-i18n": "^1.0.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@mywebsite-git.infra.server.lan:10022/clickandbuild/wordpress-plugin_cosy-address-book.git"
+  },
+  "author": "1&1 IONOS",
+  "scripts": {
+    "run-grunt": "grunt"
+  }
+}
