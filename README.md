@@ -24,6 +24,11 @@ Main CoSy Address Book Use Cases, whereas WordPress CoSy Plugin is **"Third part
 
 ## How to build project dependencies
 
+- Install vendor dependencies
+```
+composer install
+```
+
 - Install local dependencies
 ```
 npm install
