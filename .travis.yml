@@ -11,15 +11,15 @@ cache:
     - $HOME/.composer/cache
 after_success: bash bin/deploy.sh
 env:
-  matrix:
-  - WP_VERSION=latest WP_MULTISITE=0
   global:
+  - WP_VERSION=latest WP_MULTISITE=0
   - WP_TRAVISCI=travis:phpunit
   - SVN_REPO: https://plugins.svn.wordpress.org/cosy-address-book/
   - GH_REF: https://github.com/1and1/wp-cosy-address-book.git
   - secure: "NCTvKxZ3dPuMb2/1mERzvxiXWwWbBCyJ6q5pp/vaoNnVROQM1IizPgE4fRVyeyOYhF3j2nWibXn0fcgH+JJk2feC9aO88rjT3TmrZh7CzooqtoT4aR11PHFdtKQIvfo2lQVb73yQWcHSmlD0gkXkKRSoUMrj5lrapkrhG+NB9hOAgyMSGFvvB3oxrgQxeR/kRKd+lywUciAADIK+nYVF+86KcUd1C3fqM7UwNW9bAj4B6O7+odme4Z3w0e9d+Ccf2yoQPmMEeW0xwSt0eFwvBmcWX8kHIn/uwWN2P51dEXKn91i9x8AZhub2QlBqg9ULolvwjYuHR0in+1rq7h7Tn5vvHjf06N+dsM1ReMFUC2D1f2N3N0xqRk9Jp8cs0y3gARZvk8GOkIcyQqP4dAXNy/Q4ebrfw7xVoX3lfsn5ya/wTRWf47Fs/FUPkKIZXSCXDnzQk0MCTdzmA53i3mBwIe07te+HwrlVnwkhahT3AahOGnTkI9oCl97dTiVUK2spjEgLMue+m/rxpOJlAqhDvpRNtSd2Xud5GCepBDMTT9ypQUsppjwKkc+YBVgKy2ZEkS6f57cFT6Nj8Jur99OJ0nUXd+7Vn2o+v7lyOcYwiAInClobteAVyy38CzR4K1AlAQM0oVohJbBzh6S4XsEHQ9NUQZ45nSUT2w88zOFTwWQ="
 matrix:
   include:
+  - php: 7.3
   - php: 7.2
   - php: 7.1
   - php: 7.0
@@ -41,7 +41,7 @@ before_script:
   # Install the specified version of PHPUnit depending on the PHP version:
   if [[ "$WP_TRAVISCI" == "travis:phpunit" ]]; then
     case "$TRAVIS_PHP_VERSION" in
-      7.2|7.1|7.0|nightly)
+      7.3|7.2|7.1|7.0|nightly)
         echo "Using PHPUnit 6.x"
         composer global require "phpunit/phpunit:^6"
         ;;
