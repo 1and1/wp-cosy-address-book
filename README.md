@@ -17,7 +17,7 @@ Main CoSy Address Book Use Cases, whereas WordPress CoSy Plugin is **"Third part
 
 ## How to use application
 
-- Make sure your wordPress installation has one of supported contact form plugin enumerated above is installed and activated
+- Make sure one of supported contact form plugins enumerated above is activated and installed in your WordPress installation
 - Generate a new API key in IONOS Address Book Frontend settings page (you can skip this step in development stage)
 - Go to your IONOS Address Book WordPress admin menu page, paste and save generated value (you can type any value on development stage)
 - Depending on activate contact form plugin, you might need to configure mapping between contact form fields and IONOS Address Book API fields
