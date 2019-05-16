@@ -9,14 +9,14 @@ cache:
   directories:
     - vendor
     - $HOME/.composer/cache
-after_success: curl -L https://raw.githubusercontent.com/miya0001/travis2wpplugin/master/deploy.sh | bash
+after_success: bash bin/deploy.sh
 env:
   matrix:
   - WP_VERSION=latest WP_MULTISITE=0
   global:
   - WP_TRAVISCI=travis:phpunit
   - SVN_REPO: https://plugins.svn.wordpress.org/cosy-address-book/
-  - GH_REF: https://github.com/1and1/wp-cosy-address-book.git/cosy-address-book
+  - GH_REF: https://github.com/1and1/wp-cosy-address-book.git
   - secure: "GLaFh3Vc+y4QrCgFYKqZ3Mqqt74p0QgGwNgQNdGy1GJNehPHeo5iI66TKrSX69Go7/U6vgc/i+dkDHe2n2UJ9OM71/wclDKJcPdRi3mcSHEhtu+lWKRXOyqB47pUy+rISQf8aZofvceprqqfq6vYlzlfibADfyERTkRkqjjn4G8oHiyDdVvwO23x2LmPyuNZlMTT36sZ/HUV1eZCJAA0bqrswro3Fgt9bQHNUbjeqAlztzL98DGAmHsDUvsiwq9ZRjhbzl4miJOllEcPGUM1m5jECaP9hmEcaG+QdyCFdATdJOedr7WjqyScpSMjrX/lNzfF8lzVUq5+CT0TeUj7BMoVJQyxi1XLDLaGEdC46jE+XO3wMJLaHCfiRUxckdKJYPYfLnzIhPPJ1c4l40GKiYcgnH5j/C5c5BDTmONEVokclr5m+z0/N2NstKcmVxRgl3NA6rfPc/IwtEYFSAwu47x1fskm+QBMy6pS/GBmNSWpjYsqwkcrcYxo8qz7HKwJ5oYJuzZM+VUB3OokdxV2PWmU1hh+Q2ut/KoT3O7JPTP8ZrBGuInPhtouwlYT2bLeSj4bRmIogecCiPz+8Pl1dwwiNQCvoPHJEJC1vwHAnMRsOfZzmJLb1tLuqliOiv8cHLPTuIdQWpI/3urkjCwyoxtNNCZcDGTDazXZvFE12pQ="
 matrix:
   include:
