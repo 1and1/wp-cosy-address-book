@@ -11,19 +11,6 @@ services:
       testing:
         ipv4_address: 192.168.34.20
 
-  wiremock_test:
-    image: rodolpheche/wiremock
-    ports:
-      - "8081:8080"
-    volumes:
-      - ./tests/config/wiremock/__files:/home/wiremock/__files/
-      - ./tests/config/wiremock/mappings:/home/wiremock/mappings/
-    networks:
-      testing:
-        ipv4_address: 192.168.34.21
-        aliases:
-          - cosy.wiremock.lan
-
   composer:
     build:
       context: "."
@@ -32,7 +19,6 @@ services:
       STAGE_ENV: ${STAGE_ENV}
     links:
       - db_tests
-      - wiremock_test
     volumes:
       - .:/app
     command: ["run-script", "test-docker"]

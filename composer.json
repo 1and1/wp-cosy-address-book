@@ -20,7 +20,7 @@
     "test-docker": [
       "composer install",
       "bin/wait-for-db.sh wordpress_tests wordpress_tests db_tests",
-      "bin/install-wp-tests.sh wordpress_tests wordpress_tests wordpress_tests db_tests",
+      "bin/install-wp-tests-docker.sh wordpress_tests wordpress_tests wordpress_tests db_tests",
       "vendor/bin/phpunit --testsuite default"
     ]
   }
