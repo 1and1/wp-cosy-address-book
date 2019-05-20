@@ -91,7 +91,9 @@ class Address_Book_Rest_Client_Test extends PHPUnit_Framework_TestCase {
 		add_filter( 'pre_http_request', array( $this, 'send_http_response' ) );
 
 		$this->assertEquals( $is_successful,
-			$rest_client->update_subscription( $current_domain, $new_domain, 'test-key' ) );
+			$rest_client->update_subscription( $current_domain, $new_domain, 'test-key' )
+		);
+
 		$this->assertEquals( $error_message, $rest_client->get_last_error() );
 	}
 
@@ -311,10 +313,10 @@ class Address_Book_Rest_Client_Test extends PHPUnit_Framework_TestCase {
 	 */
 	private function is_valid_contact_creation_request( $request_body ) {
 		return empty(
-		strcasecmp(
-			$request_body,
-			file_get_contents( sprintf( '%s/config/mockfiles/valid_contacts.json', __DIR__ ) )
-		)
+			strcasecmp(
+				$request_body,
+				file_get_contents( sprintf( '%s/config/mockfiles/valid_contacts.json', __DIR__ ) )
+			)
 		);
 	}
 
