@@ -1,0 +1,5 @@
+{
+  "code": 500,
+  "message": "Internal Server Error",
+  "body": "An error occurred while processing the request please try again later"
+}
