@@ -3,7 +3,7 @@ Contributors: ionos, kimalumalu, gdespoulain, pfefferle
 Tags: contact, contact data, address book, synchronisation
 Requires at least: 3.8
 Tested up to: 5.2
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 Requires PHP: 5.6
 License: MIT
 License URI: https://opensource.org/licenses/MIT
@@ -21,3 +21,10 @@ Current supported contact form types are: `Contact Form 7` and `WPforms Lite`
 2. Activate the plugin through the 'Plugins' menu in WordPress.
 3. Activate connection to 1&1 IONOS Address Book API as described in plugin welcome page on admin dashboard
 4. Save your changes.
+
+== Changelog ==
+
+Project and support maintained on github at [1and1/wp-cosy-address-book](https://github.com/1and1/wp-cosy-address-book).
+
+= 1.0.1 =
+* added license file
