@@ -45,7 +45,7 @@ fi
 cd $BASE_DIR
 
 echo "Syncing git repository to svn"
-rsync -a --exclude=".svn" --checksum --delete ./git/cosy-address-book ./trunk/
+rsync -a --exclude=".svn" --checksum --delete ./git/cosy-address-book/ ./trunk/
 rm -fr ./git
 
 cd ./trunk
