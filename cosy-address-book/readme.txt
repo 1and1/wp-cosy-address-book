@@ -2,8 +2,8 @@
 Contributors: ionos, kimalumalu, gdespoulain, pfefferle
 Tags: contact, contact data, address book, synchronisation
 Requires at least: 3.8
-Tested up to: 5.2
-Stable tag: 1.0.1
+Tested up to: 5.3
+Stable tag: 1.0.2
 Requires PHP: 5.6
 License: MIT
 License URI: https://opensource.org/licenses/MIT
@@ -26,5 +26,9 @@ Current supported contact form types are: `Contact Form 7` and `WPforms Lite`
 
 Project and support maintained on github at [1and1/wp-cosy-address-book](https://github.com/1and1/wp-cosy-address-book).
 
+= 1.0.2 =
+* Update version
+* Update author
+
 = 1.0.1 =
-* added license file
+* Add license file
