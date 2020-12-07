@@ -1,15 +1,15 @@
+#, fuzzy
 msgid ""
 msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 "Project-Id-Version: 1&1 IONOS Address Book\n"
-"POT-Creation-Date: 2020-12-07 11:26+0100\n"
-"PO-Revision-Date: 2020-12-07 12:07+0100\n"
+"POT-Creation-Date: 2020-12-07 11:43+0100\n"
+"PO-Revision-Date: 2020-12-07 11:11+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
-"Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Poedit 2.4.2\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-Flags-xgettext: --add-comments=translators:\n"
@@ -23,21 +23,18 @@ msgstr ""
 
 #: cosy-address-book.php:47 cosy-address-book.php:48
 msgid "Contacts"
-msgstr "Adressbuch"
+msgstr ""
 
 #. Plugin Name of the plugin/theme
 #: inc/views/main.php:3
 msgid "IONOS Address Book"
-msgstr "IONOS Addressbuch"
+msgstr ""
 
 #: inc/views/main.php:6
 msgid ""
 "Since the IONOS Address Book feature no longer meets our current technical "
 "requirements, we will be discontinuing the feature on 02/16/2021."
 msgstr ""
-"Da das IONOS Adressbuch-Feature nicht mehr unseren aktuellen technischen "
-"Anforderungen gerecht wird, werden wir das Feature zum 16.02.2021 "
-"ganzheitlich einstellen."
 
 #: inc/views/main.php:7
 msgid ""
@@ -45,15 +42,10 @@ msgid ""
 "help/index.php?id=3862\">export your contacts as a vCard (.VCF file)</a> for "
 "your own backup or to transfer them to another platform."
 msgstr ""
-"Bis zu diesem Zeitpunkt haben Sie dann noch die Möglichkeit Ihre bis dahin "
-"erfassten Kontakte über die <a href=\"https://www.ionos.de/hilfe/index.php?"
-"id=3862&no_cache=1\">Export Funktion als vCard (VCF-Datei)</a> gesammelt "
-"abzurufen, um diese entsprechend für sich zu sichern oder in ein System "
-"Ihrer Wahl zu übertragen."
 
 #. Plugin URI of the plugin/theme
 msgid "https://wordpress.org/plugins/cosy-address-book"
-msgstr "https://wordpress.org/plugins/cosy-address-book"
+msgstr ""
 
 #. Description of the plugin/theme
 msgid ""
@@ -63,8 +55,8 @@ msgstr ""
 
 #. Author of the plugin/theme
 msgid "IONOS"
-msgstr "IONOS"
+msgstr ""
 
 #. Author URI of the plugin/theme
 msgid "https://www.ionos.com"
-msgstr "https://www.ionos.de"
+msgstr ""
