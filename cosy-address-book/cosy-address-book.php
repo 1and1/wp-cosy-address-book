@@ -51,7 +51,7 @@ class CoSy_Address_Book {
 		if ( is_admin() && current_user_can( 'manage_options' ) ) {
 			add_menu_page(
 				__( 'Contacts', 'cosy-address-book' ),
-				__( 'Contacts', 'cosy-address-book' ) . '<span class="update-plugins count-1"><span class="plugin-count">!</span></span>',
+				__( 'Contacts', 'cosy-address-book' ) . ' <span class="update-plugins count-1"><span class="plugin-count">!</span></span>',
 				'manage_options',
 				self::ADDRESS_BOOK_PAGE_ID,
 				array( $this, 'load_menu_page' ),
