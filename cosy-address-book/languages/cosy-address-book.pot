@@ -1,35 +1,40 @@
+#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: WordPress CoSy Address Book\n"
-"Report-Msgid-Bugs-To: http://wordpress.org/tag/cosy-address-book\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: 1&1 IONOS Address Book\n"
 "POT-Creation-Date: 2020-12-07 11:43+0100\n"
-"PO-Revision-Date: 2020-12-07 17:24+0100\n"
+"PO-Revision-Date: 2020-12-07 11:11+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
-"Language: it_IT\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Poedit 2.4.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: cosy-address-book.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
 
 #: cosy-address-book.php:47 cosy-address-book.php:48
 msgid "Contacts"
-msgstr "Rubrica"
+msgstr ""
 
 #. Plugin Name of the plugin/theme
 #: inc/views/main.php:3
 msgid "IONOS Address Book"
-msgstr "Rubrica IONOS"
+msgstr ""
 
 #: inc/views/main.php:6
 msgid ""
 "Since the IONOS Address Book feature no longer meets our current technical "
 "requirements, we will be discontinuing the feature on 02/16/2021."
 msgstr ""
-"Dal momento che la funzione Rubrica di IONOS non soddisfa più i nostri "
-"attuali requisiti tecnici, abbiamo deciso di disattivarla completamente a "
-"partire dal 16.02.2021."
 
 #: inc/views/main.php:7
 msgid ""
@@ -37,14 +42,10 @@ msgid ""
 "help/index.php?id=3862\">export your contacts as a vCard (.VCF file)</a> for "
 "your own backup or to transfer them to another platform."
 msgstr ""
-"Fino alla disattivazione, hai la possibilità di <a href=\"https://www.ionos."
-"it/aiuto/index.php?id=3862\">esportare tutti i tuoi contatti in formato "
-"vCard (file VCF)</a> e di salvarli sul tuo computer locale oppure "
-"trasferirli in un sistema a tua scelta."
 
 #. Plugin URI of the plugin/theme
 msgid "https://wordpress.org/plugins/cosy-address-book"
-msgstr "https://wordpress.org/plugins/cosy-address-book"
+msgstr ""
 
 #. Description of the plugin/theme
 msgid ""
@@ -54,8 +55,8 @@ msgstr ""
 
 #. Author of the plugin/theme
 msgid "IONOS"
-msgstr "IONOS"
+msgstr ""
 
 #. Author URI of the plugin/theme
 msgid "https://www.ionos.com"
-msgstr "https://www.ionos.it"
+msgstr ""

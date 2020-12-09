@@ -1,13 +1,8 @@
-<div class="ui-cosy-address-book">
+<div class="wrap">
 	<h1>
-		<?php _e( 'cosy_address_book_menu_page_headline', 'cosy-address-book' ); ?>
+		<?php _e( 'IONOS Address Book', 'cosy-address-book' ); ?>
 	</h1>
-	<div>
-		<?php
-		CoSy_Address_Book_Api_Client::instance()->check_subscription_update();
-		CoSy_Address_Book_View::load_view(
-			( CoSy_Address_Book_Api_Client::instance()->is_connected() ) ? 'settings' : 'description'
-		);
-		?>
-	</div>
+
+	<p><strong><?php _e( 'Since the IONOS Address Book feature no longer meets our current technical requirements, we will be discontinuing the feature on 02/16/2021.', 'cosy-address-book' ); ?></strong></p>
+	<p><?php _e( 'Before this date, you will still be able to <a href="https://www.ionos.com/help/index.php?id=3862">export your contacts as a vCard (.VCF file)</a> for your own backup or to transfer them to another platform.', 'cosy-address-book' ); ?></p>
 </div>
